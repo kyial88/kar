@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* cols n row */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 15px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding: 15px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 15px;
+}
+
+.col-8 {
+    width: 66.66%;
+    padding: 15px;
+}
+
+/* cols n row */
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-transform: unset;
+}
+
+.section-one {
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: black;
+    padding: 36px 0;
+}
+
+.inner-header {
+    color: #ffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 span {
+    border-radius: 3px;
+    background: #4a90e2;
+    padding: 3px 5px;
+    text-transform: uppercase;
+}
+
+
+
+.first-img {
+    background: url(../Assets/Bitmap\ \(13\).png) no-repeat center/cover;
+    height: 530px;
+}
+
+.box {
+    /* color: #fff; */
+    position: relative;
+    overflow: hidden;
+}
+
+.card-btn {
+    position: absolute;
+    border-radius: 3px;
+    background: #4a90e2;
+    border: none;
+    padding: 4px 12px;
+    color: #fff;
+    transition: 0.6s;
+    top: 30px;
+    left: -68px;
+    cursor: pointer;
+}
+
+.card-btn:hover {
+    background-color: rgb(55, 34, 134);
+    left: 0;
+}
+
+.inner-box {
+    position: absolute;
+    bottom: 20px;
+    left: -335px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    transition: 0.6s;
+    width: 335px;
+}
+
+.box:hover .card-btn {
+    left: 22px;
+}
+
+.box:hover .inner-box {
+    left: 22px;
+}
+
+/* 1/ */
+
+/* 2 */
+.btn {
+    background-color: #4a90e2;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: #fff;
+
+}
+
+
+.img-wrapper-second {
+    background: url(../Assets/Image1.png) no-repeat center/cover;
+    height: 250px;
+}
+.img-wrapper-third{
+    background: url(../Assets/Img2.png) no-repeat center/cover;
+    height: 250px;
+}
+.img-wrapper-four{
+    background: url(../Assets/Image3.png) no-repeat center/cover;
+    height: 250px;
+}
+.img-wrapper-five{
+    background: url(../Assets/Image4.png) no-repeat center/cover;
+    height: 250px;
+}
+
+.car-info-section{
+    padding: 50px 0;
+}
+
+.car-info-section.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 150px;
+}
+
+.car-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.card-desc-wrapper{
+    max-width: 730px;
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 1px 5px 24px 7px rgba(0,0,0,0.43);
+    margin-top: -90px;
+}
+
+.card-desc-wrapper h4{
+    font-size: 25px; 
+}
+
+.card-desc-wrapp span{
+    font-size: 14px;
+    color: #666;
+}
+
+.car-info2{
+    height: 500px;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 150px;
+
+}
+
+.card-desc-wrapper h4{
+    font-size: 25px; 
+}
+
+.card-desc-wrapp span{
+    font-size: 14px;
+    color: #666;
+}
+
+/* 3 */
+.section-premium{
+    background: #171717;
+    padding: 100px;
+    
+}
+.col-4-logo{
+    
+    color: #666;
+}
+.p-svg{
+    width: 230;
+    
+}
+
+.box-Resent-Group{
+  
+    text-decoration: #fff;
+    justify-content: space-between;
+}
+.button{
+    background-color: #4a90e2;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+.section-premium .row {
+    flex-wrap: unset;
+    display: flex;
+
+}
+
+footer{
+    height: 50px;
+    background: rgba(0, 0, 0, 1);
+    text-align: right;
+}
+
+
+
+
+
+

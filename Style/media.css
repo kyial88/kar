@@ -1,0 +1,41 @@
+@media (max-width :1200px){
+    .container {
+        padding: 0 10px;
+    }
+    
+    .first-img{
+        height: 420px;
+    }
+    
+    .custum-box.box{
+        height: 195px;
+    }
+    
+    .car-info {
+        height: 480px;
+        padding: 0 30px;
+    }
+    
+    .cas-desk-wrapper h4{
+        font-size: 20px;
+    }
+    
+    .box h4 {
+        font-size: 14px;
+    }
+    
+    .inner-box {
+        width: unset;
+    }
+}
+
+@media (max-width:900px)  {
+    .col-4 {width: 100%;}
+    .col-8 {
+        width: 100%;
+    
+    }
+    
+    
+}
+
